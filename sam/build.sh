@@ -1,5 +1,5 @@
 #!/bin/bash
-VERSION=1.1
+VERSION=0.1.19
 
 function build() {
   cd $1
@@ -10,11 +10,11 @@ function build() {
 
 cd sam
 
-git clone -b master https://github.com/samtools/htslib.git
-build htslib
+#git clone -b master https://github.com/samtools/htslib.git
+#build htslib
 
 git clone -b master https://github.com/samtools/samtools.git
 build samtools
 
-git clone -b master https://github.com/samtools/bcftools.git
-build bcftools
+#git clone -b master https://github.com/samtools/bcftools.git
+#build bcftools
