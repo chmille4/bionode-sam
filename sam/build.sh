@@ -18,3 +18,6 @@ build samtools
 
 #git clone -b master https://github.com/samtools/bcftools.git
 #build bcftools
+
+cd ../../../bin/
+ln -s ../node_modules/bionode-sam/sam/samtools/samtools samtools
